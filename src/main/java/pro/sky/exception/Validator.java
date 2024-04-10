@@ -21,7 +21,7 @@ public class Validator {
             throw new WrongPasswordException("пароль " + password + " не подходит по условию, не корректно введены данные.");
         }
         if (!password.equals(confirmPassword)) {
-            throw new WrongPasswordException("password != confirmPassword");
+            throw new WrongPasswordException("пароль " + password +"  не равен , + != confirmPassword + ");
         }
 
 //        String[] result = "java_skypro_go94673".split("\\.");
