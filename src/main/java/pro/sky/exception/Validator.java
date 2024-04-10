@@ -24,6 +24,7 @@ public class Validator {
             throw new WrongPasswordException("пароль " + password +"  не равен , + != confirmPassword + ");
         }
 
+
 //        String[] result = "java_skypro_go94673".split("\\.");
 //        System.out.println(result[20]);
 //        System.out.println(Arrays.toString(result));

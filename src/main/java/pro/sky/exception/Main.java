@@ -28,6 +28,5 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException exception) {
             System.out.println("не верные входные данные:" + exception.getMessage());
         }
-
     }
 }
